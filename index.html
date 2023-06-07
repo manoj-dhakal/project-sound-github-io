@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking css file -->
+    <link rel="stylesheet"  href="style.css">
+    <!-- Linking google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#director">Crews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Adding nmae of the project instead of the logo -->
+    <h1 class="logo">Ingredient Quest</h1>
+    <section id="home">
+        <div class="container">
+    <!-- DEsciption of hte project -->
+            <h2>Join us on an immersive audio adventure as we follow two girls on their trip to the supermarket. From the moment they step into their car to the bustling aisles of the store and their return to the lift, every sound has been captured. Experience the excitement, the conversations, and the ambiance as we bring this story to life.</h2>
+         <!-- Adding a button that directs to the audio project to make website interactive -->
+            <a href="#projects" class="btn">Explore Project</a>
+        
+        </div>
+    </section>
+
+    <section id="projects">
+        <video controls>
+            <!-- This is the main audio -->
+            <source src="audio.mp4" type="video/mp4">
+            
+        </video>
+    </section>
+    <section id="director">
+        <div class="video-wrapper">
+            <!-- Adding behind the scenes video  -->
+            <h1>Behind the Scenes</h1>
+            <video src="bts.mp4" controls></video>
+        </div>
+        <h3 id="directors">Audio Production Crews</h3>
+        <div class="row">
+            <div class="cast-col">
+                <!-- Name of the crew -->
+                <h4>Mariam</h4>
+                <!-- picture or avatar of the crew -->
+                <img class="human-logo" src="mariam.PNG" alt="Director 1 Logo">
+                <!-- A very short intro of the crew -->
+                <p>Interactive Media Major </p>
+                <p>Contact: <a href="mailto:mariam@gmail.com">mariam@gmail.com</a></p>
+            </div>
+            <div class="cast-col">
+                <!-- Name of the crew -->
+                <h4>Gunjan</h4>
+                <!-- picture or avatar of the crew -->
+                <img class="human-logo" src="gunjan.jpg" alt="Director 1 Logo">
+                <!-- A very short intro of the crew -->
+               <p>Interactive Media and Computer Science major with minor in Applied Mathematics </p>
+               <p>Contact: <a href="mailto:mariam@gmail.com">gunjan@gmail.com</a></p>
+            </div>
+            <div class="cast-col">
+                <!-- Name of the crew -->
+                <h4>Maryam</h4>
+                <!-- picture or avatar of the crew -->
+                <img class="human-logo" src="Maryam.jpg" alt="Director 1 Logo">
+                <!-- A very short intro of the crew -->
+                <p>Computer Science major with minor in Interactive Media</p> 
+                <p>Contact: <a href="mailto:mariam@gmail.com">maryam@gmail.com</a></p>
+            </div>
+            <div class="cast-col">
+                <!-- Name of the crew -->
+                <h4>Fatima</h4>
+                <!-- picture or avatar of the crew -->
+                <img class="human-logo" src="fatima.jpeg" alt="Director 1 Logo">
+               <!-- A very short intro of the crew -->
+               <p>Psychology major with minor in Interactive Media</p>
+               <p>Contact: <a href="mailto:mariam@gmail.com">fatima@gmail.com</a></p>
+            </div>
+            <div class="cast-col">
+                <!-- Name of the crew -->
+                <h4>Manoj Dhakal</h4>
+                <!-- picture or avatar of the crew -->
+                <img class="human-logo" src="Manoj.jpg" alt="Director 1 Logo">
+                <!-- A very short intro of the crew -->
+                <p>Computer Science and Philosophy major with minor in Applied Mathematics</p> 
+                <p>Contact: <a href="mailto:mariam@gmail.com">manoj@gmail.com</a></p>
+            </div>
+        </div>
+        
+
+    </section>
+    
+</body>
+</html>
